@@ -1,0 +1,8 @@
+print("Today is a weekday")
+print("Vocational Skill Course")
+print("Today", "is", "Monday")
+print("Today", "is", "Monday", sep=".....")
+print("Today is Monday, ", end="")
+print("Vocational Skill Course")
+print("Today", "is", "Monday", sep="?", end="!!")
+print("Vocational Skill Course")
