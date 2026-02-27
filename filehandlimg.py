@@ -1,0 +1,11 @@
+filename = input("Enter file name: ")
+file = open(filename, "w")
+data = input("Enter data to store in file: ")
+
+file.write(data)
+file.close()
+file = open(filename, "r")
+content = file.read()
+print("Data stored in file:")
+print(content)
+file.close()
